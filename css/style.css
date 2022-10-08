@@ -7,7 +7,7 @@
     src: url(../fonts/Roboto-Italic.ttf);
 }
 
-body {
+* {
     margin: 0;
 }
 
@@ -23,6 +23,14 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 10em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
 }
 
 nav {
@@ -91,9 +99,12 @@ figcaption {
     background-color: #E5E7EB;
 }
 
+.qoute-figure {
+    width: 60%;
+    margin: 4em 0;
+}
+
 .qoute {
-    width: 80%;
-    margin-bottom: 0;
     font-family: 'roboto-italic';
     font-weight: lighter;
     font-size: 36px;
@@ -119,8 +130,8 @@ figcaption {
     justify-content: space-evenly;
     align-items: center;
     background-color: #3882F6;
-    width: 100%;
     border-radius: 10px;
+    margin: 5em 15em;
 }
 
 footer {
