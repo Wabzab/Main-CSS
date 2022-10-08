@@ -29,7 +29,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 0 10em;
+    padding: 1em 10em;
 }
 
 ul {
@@ -70,11 +70,8 @@ figcaption {
 }
 
 .placeholder {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
+    width: 10em;
+    height: auto;
 }
 
 .second {
