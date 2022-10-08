@@ -7,6 +7,13 @@
     src: url(../fonts/Roboto-Italic.ttf);
 }
 
+:root {
+    --background-dark: #1f2937;
+    --background-light: #3882F6;
+    --background-light-grey: #E5E7EB;
+    --text-light: #F9FAF8;
+}
+
 * {
     margin: 0;
 }
@@ -16,7 +23,7 @@
 }
 
 .dark {
-    background-color: #1f2937;
+    background-color: var(--background-dark);
 }
 
 header {
@@ -48,7 +55,7 @@ figcaption {
     text-align: center;
     font-family: 'roboto';
     font-size: 16px;
-    color: #1F2937;
+    color: var(--background-dark);
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -86,7 +93,7 @@ figcaption {
 .illustration {
     width: 9em;
     height: 9em;
-    border: 3px solid #3882F6;
+    border: 3px solid var(--background-light);
     border-radius: 10%;
     margin: 0 auto;
 }
@@ -96,7 +103,7 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: var(--background-light-grey);
 }
 
 .qoute-figure {
@@ -108,7 +115,7 @@ figcaption {
     font-family: 'roboto-italic';
     font-weight: lighter;
     font-size: 36px;
-    color: #1F2937;
+    color: var(--background-dark);
 
 }
 
@@ -121,7 +128,7 @@ figcaption {
     font-family: 'roboto';
     font-size: 24px;
     font-weight: bolder;
-    color: #1F2937;
+    color: var(--background-dark);
 
 }
 
@@ -129,7 +136,7 @@ figcaption {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #3882F6;
+    background-color: var(--background-light);
     border-radius: 10px;
     margin: 5em 15em;
 }
@@ -147,7 +154,7 @@ h1 {
     font-family: 'roboto';
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    color: var(--text-light);
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -155,13 +162,13 @@ h1 {
 h3 {
     font-family: 'roboto';
     font-size: 24px;
-    color: #F9FAF8;
+    color: var(--text-light);
 }
 
 p, a {
     font-family: 'roboto';
     font-size: 18px;
-    color: #E5E7EB;
+    color: var(--background-light-grey);
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -180,7 +187,7 @@ h2 {
 h5 {
     font-family: 'roboto';
     font-size: 20px;
-    color: #F9FAF8;
+    color: var(--text-light);
     margin: 2em 0 0 0;
 }
 
@@ -198,12 +205,12 @@ button {
 
 .button-outline {
     
-    border: 2px solid #E5E7EB;
+    border: 2px solid var(--background-light-grey);
 }
 
 h6 {
     font-family: 'roboto';
     font-size: 16px;
-    color: #F9FAF8;
+    color: var(--text-light);
     margin: 5px 1em 5px 1em;
 }
